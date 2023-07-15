@@ -1,0 +1,14 @@
+.features .contan .img-holder::after {
+    border-width: 0px 0px 150px 385px;
+
+ }
+ .features .contan>div:hover .img-holder::after {
+    border-width: 0px 385px 150px 0px;
+}
+.team .contan {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+.team .contan .box{
+    padding: 50px 0 11px;
+}

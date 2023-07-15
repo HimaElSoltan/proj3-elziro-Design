@@ -1,0 +1,43 @@
+header .contan .logo{
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+}
+header .contan nav{
+    margin: 0 auto;
+}
+header .contan nav a{
+    padding: 10px;
+    font-size: 14px;
+    height: 40px;
+
+}
+.landing .contan .text p{ 
+   font-size: 18px;
+}
+.landing .contan .text h1{ 
+    font-size: 28px;
+
+}
+header .contan .mega-menu {
+display: flex;
+gap: 0;
+top: 100%;
+padding: 5px 30px;
+    flex-direction: column;
+}
+
+
+header .contan nav .mega-menu .links a{
+padding: 10px;
+}
+header .contan nav .mega-menu .links:nth-child(2) a:last-child{
+    border-bottom: 1px solid var(--main-color);
+ }
+ .features .contan .img-holder::after {
+    border-width: 0px 650px 170px  0px;
+
+ }
+ .features .contan>div:hover .img-holder::after {
+    border-width: 0px 0px 239px 674px;
+}

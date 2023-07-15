@@ -1,0 +1,18 @@
+.landing .contan .image{ 
+    display: none; 
+}
+.landing .contan .text{ 
+    text-align: center;
+}
+.landing .contan .text p{ 
+    margin: 10px auto;
+}
+.landing .contan {
+    min-height: 65vh;
+}
+.main-title{
+    margin: 30px auto;
+}
+header .contan nav .mega-menu .image {
+    display: none;
+}
